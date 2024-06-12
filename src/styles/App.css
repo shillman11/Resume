@@ -1,0 +1,29 @@
+:root {
+  font-family: sans-serif;
+  --resume-accent-color: #0e374e;
+  --resume-section-title-size: 20px;
+  --resume-section-title-background-color: rgb(229, 241, 248);
+  --form-input-background-color: rgb(231, 231, 231);
+  --app-background-color: rgb(230, 230, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  /* border: 1px solid red; */
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: var(--app-background-color);
+}
+
+input {
+  padding-left: 5px;
+}
+
+textarea {
+  padding-left: 5px;
+}

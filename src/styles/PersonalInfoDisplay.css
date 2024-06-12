@@ -1,0 +1,45 @@
+.resume-title-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.resume-title-content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-container {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-title-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#resume-text-fullName {
+  font-size: 35px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+#resume-text-phone::before {
+  font-size: 35px;
+}
+
+#resume-text-location::before {
+  font-size: 35px;
+}

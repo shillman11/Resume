@@ -1,0 +1,28 @@
+.education-form::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.experience-form::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+input {
+  border-radius: 5px;
+  background-color: var(--form-input-background-color);
+  border: none;
+  height: 30px;
+}
+
+textarea {
+  border-radius: 5px;
+  background-color: var(--form-input-background-color);
+  border: none;
+  height: 80px;
+  resize: none;
+  font-family: sans-serif;
+}
