@@ -1,4 +1,4 @@
-import "../styles/educationInfoForm.css";
+import "../styles/EducationInfoForm.css";
 
 function EducationInfoForm({ index, info, onChange }) {
   const handleChange = (event) => {
