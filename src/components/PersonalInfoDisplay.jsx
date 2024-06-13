@@ -1,5 +1,8 @@
 import "../styles/PersonalInfoDisplay.css";
 import React from "react";
+import EMAILICON from "../assets/email.svg";
+import PHONEICON from "../assets/phone.svg";
+import LOCATIONICON from "../assets/map-marker.svg";
 
 function PersonalInfoDisplay({ fullName, email, phoneNumber, location }) {
   return (
@@ -11,26 +14,20 @@ function PersonalInfoDisplay({ fullName, email, phoneNumber, location }) {
       </div>
       <div className="resume-title-content-container">
         <div className="icon-container">
-          {email && (
-            <img src="./src/assets/email.svg" alt="" className="icon" />
-          )}
+          {email && <img src={EMAILICON} alt="" className="icon" />}
           <div className="resume-title-text" id="resume-text-email">
             {email}
           </div>
         </div>
 
         <div className="icon-container">
-          {phoneNumber && (
-            <img src="./src/assets/phone.svg" alt="" className="icon" />
-          )}
+          {phoneNumber && <img src={PHONEICON} alt="" className="icon" />}
           <div className="resume-title-text" id="resume-text-phone">
             {phoneNumber}
           </div>
         </div>
         <div className="icon-container">
-          {location && (
-            <img src="./src/assets/map-marker.svg" alt="" className="icon" />
-          )}
+          {location && <img src={LOCATIONICON} alt="" className="icon" />}
           <div className="resume-title-text" id="resume-text-location">
             {location}
           </div>

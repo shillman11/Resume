@@ -2,6 +2,8 @@ import "../styles/EducationInfo.css";
 import React from "react";
 import { useState } from "react";
 import EducationInfoForm from "./EducationInfoForm";
+import CHEVRONICON from "../assets/chevron-up.svg";
+import SCHOOLICON from "../assets/school.svg";
 
 function EducationInfo({
   educationInfos,
@@ -37,14 +39,14 @@ function EducationInfo({
           onClick={handleEducationButtonClick}
         >
           <img
-            src="../src/assets/school.svg"
+            src={SCHOOLICON}
             alt=""
             className="sidebar-icon"
             id="school-icon"
           />
           <h2 className="educationInfo-button-header">Education</h2>
           <img
-            src="../src/assets/chevron-up.svg"
+            src={CHEVRONICON}
             alt=""
             className="sidebar-icon"
             id={chevronIconId}

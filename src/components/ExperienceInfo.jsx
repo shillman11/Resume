@@ -2,6 +2,8 @@ import "../styles/ExperienceInfo.css";
 import React from "react";
 import { useState } from "react";
 import ExperienceInfoForm from "./ExperienceInfoForm";
+import BRIEFCASEICON from "../assets/briefcase.svg";
+import CHEVRONICON from "../assets/chevron-up.svg";
 
 function ExperienceInfo({
   experienceInfos,
@@ -37,14 +39,14 @@ function ExperienceInfo({
           onClick={handleEducationButtonClick}
         >
           <img
-            src="../src/assets/briefcase.svg"
+            src={BRIEFCASEICON}
             alt=""
             className="sidebar-icon"
             id="work-icon"
           />
           <h2 className="experienceInfo-button-header">Experience</h2>
           <img
-            src="../src/assets/chevron-up.svg"
+            src={CHEVRONICON}
             alt=""
             className="sidebar-icon"
             id={chevronIconId}
