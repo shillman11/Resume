@@ -1,9 +1,9 @@
 {
-  "homepage": "https://shillman11.github.io/Resume",
   "name": "resume",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://shillman11.github.io/Resume",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
